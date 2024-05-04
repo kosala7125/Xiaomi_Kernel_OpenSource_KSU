@@ -7,7 +7,6 @@ make CC=clang ARCH=arm4 O=out -j16 \
         HEADER_ARCH=arm64
         SUBARCH=arm64
         CXX=c++
-     AR=llvm-ar \
      NM=llvm-nm \
      OBJCOPY=llvm-objcopy \ 
      OBJDUMP=llvm-objdump \
